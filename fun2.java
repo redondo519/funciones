@@ -7,7 +7,10 @@ public class fun2 {
 
     public static void com(int a,int b){
 
-        for (int i=a+1 ; i<b; i++){
+        int max = Math.max(a,b);
+        int min = Math.min(a,b);
+
+        for (int i=min+1 ; i<max; i++){
             System.out.println(i);
         }
 
