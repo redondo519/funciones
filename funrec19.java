@@ -23,5 +23,6 @@ public class funrec19 {
         int fin = sc.nextInt();
         int[] nums = rellenaPares(longitud, fin);
         System.out.println(Arrays.toString(nums));
+
     }
 }
