@@ -5,8 +5,9 @@ public class fun36contarCaracter {
     public static void contarCaracteres(String cadena) {
 
         int num = cadena.length();
+        String ultimo = String.valueOf(cadena.charAt(num - 1));
 
-        System.out.printf("La cadena  %s tiene  %d  numero de caracteres \n ",cadena,num);
+        System.out.printf("La cadena  %s tiene  %d  numero de caracteres y su último carcter es '%s' \n ",cadena,num,ultimo);
     }
 
 
